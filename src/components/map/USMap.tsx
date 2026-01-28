@@ -4,8 +4,9 @@ import React, { useRef, useEffect, useState, useCallback, useMemo } from 'react'
 import * as d3 from 'd3';
 import { geoAlbersUsa, geoPath } from 'd3-geo';
 import * as topojson from 'topojson-client';
+import type { Topology, GeometryCollection } from 'topojson-specification';
 import { useStore } from '@/store';
-import { getRatingColor, getMarginColor, cn } from '@/lib/utils';
+import { getRatingColor, cn } from '@/lib/utils';
 import { MapTooltip } from './MapTooltip';
 import { MapLegend } from './MapLegend';
 import type { Rating } from '@/types';
@@ -20,13 +21,11 @@ interface USMapProps {
   className?: string;
 }
 
-interface TopoJSONData {
-  type: 'Topology';
+interface TopoJSONData extends Topology {
   objects: {
-    states: topojson.GeometryCollection;
-    nation?: topojson.GeometryCollection;
+    states: GeometryCollection;
+    nation?: GeometryCollection;
   };
-  arcs: number[][][];
 }
 
 interface StateFeature {
