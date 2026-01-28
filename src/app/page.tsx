@@ -71,7 +71,7 @@ export default function HomePage() {
           break;
         case 'setDem':
           if (selectedState) {
-            const strength = currentRating?.strength !== 'battleground' && currentRating?.strength !== 'unrated'
+            const strength = currentRating && currentRating.strength !== 'battleground' && currentRating.strength !== 'unrated'
               ? currentRating.strength
               : 'lean';
             setRating(selectedState, 'dem', strength);
@@ -79,7 +79,7 @@ export default function HomePage() {
           break;
         case 'setRep':
           if (selectedState) {
-            const strength = currentRating?.strength !== 'battleground' && currentRating?.strength !== 'unrated'
+            const strength = currentRating && currentRating.strength !== 'battleground' && currentRating.strength !== 'unrated'
               ? currentRating.strength
               : 'lean';
             setRating(selectedState, 'rep', strength);
