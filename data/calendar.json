@@ -1,0 +1,314 @@
+{
+  "metadata": {
+    "version": "1.0.0",
+    "lastUpdated": "2026-01-27",
+    "description": "Election calendar and key dates. Dates marked with isReliable: false should be verified independently.",
+    "disclaimer": "This calendar is for informational purposes only. Always verify dates with your state election office."
+  },
+  "nationalDates": [
+    {
+      "date": "2026-11-03",
+      "type": "general",
+      "description": "2026 General Election Day",
+      "isReliable": true
+    },
+    {
+      "date": "2028-11-07",
+      "type": "general",
+      "description": "2028 Presidential General Election Day",
+      "isReliable": true
+    }
+  ],
+  "stateCalendars": {
+    "AZ": {
+      "stateId": "AZ",
+      "dates": [
+        {
+          "date": "2026-10-05",
+          "type": "registration_deadline",
+          "description": "Voter Registration Deadline (29 days before election)",
+          "isReliable": true,
+          "source": "Arizona Secretary of State",
+          "sourceUrl": "https://azsos.gov/elections"
+        },
+        {
+          "date": "2026-10-07",
+          "type": "early_voting_start",
+          "description": "Early Voting Begins (27 days before election)",
+          "isReliable": true,
+          "source": "Arizona Secretary of State"
+        },
+        {
+          "date": "2026-08-04",
+          "type": "primary",
+          "description": "Arizona Primary Election",
+          "isReliable": true,
+          "source": "Arizona Secretary of State"
+        }
+      ],
+      "lastVerified": "2026-01-15",
+      "coverageNotes": "Arizona has consistent deadlines based on days before election"
+    },
+    "CA": {
+      "stateId": "CA",
+      "dates": [
+        {
+          "date": "2026-10-19",
+          "type": "registration_deadline",
+          "description": "Voter Registration Deadline (15 days before election)",
+          "isReliable": true,
+          "source": "California Secretary of State",
+          "sourceUrl": "https://www.sos.ca.gov/elections/voter-registration"
+        },
+        {
+          "date": "2026-10-05",
+          "type": "early_voting_start",
+          "description": "Vote-by-Mail Ballots Mailed (29 days before election)",
+          "isReliable": true,
+          "source": "California Secretary of State"
+        },
+        {
+          "date": "2026-06-02",
+          "type": "primary",
+          "description": "California Primary Election",
+          "isReliable": true,
+          "source": "California Secretary of State"
+        }
+      ],
+      "lastVerified": "2026-01-10",
+      "coverageNotes": "California allows same-day voter registration (conditional)"
+    },
+    "FL": {
+      "stateId": "FL",
+      "dates": [
+        {
+          "date": "2026-10-05",
+          "type": "registration_deadline",
+          "description": "Voter Registration Deadline (29 days before election)",
+          "isReliable": true,
+          "source": "Florida Division of Elections",
+          "sourceUrl": "https://dos.myflorida.com/elections/"
+        },
+        {
+          "date": "2026-10-24",
+          "type": "early_voting_start",
+          "description": "Early Voting Period Begins (10 days before election)",
+          "isReliable": true,
+          "source": "Florida Division of Elections"
+        },
+        {
+          "date": "2026-08-18",
+          "type": "primary",
+          "description": "Florida Primary Election",
+          "isReliable": true,
+          "source": "Florida Division of Elections"
+        }
+      ],
+      "lastVerified": "2026-01-14",
+      "coverageNotes": "Early voting period varies by county within state guidelines"
+    },
+    "GA": {
+      "stateId": "GA",
+      "dates": [
+        {
+          "date": "2026-10-05",
+          "type": "registration_deadline",
+          "description": "Voter Registration Deadline (29 days before election)",
+          "isReliable": true,
+          "source": "Georgia Secretary of State",
+          "sourceUrl": "https://sos.ga.gov/elections-division"
+        },
+        {
+          "date": "2026-10-12",
+          "type": "early_voting_start",
+          "description": "Advance Voting Begins (3rd Monday before election)",
+          "isReliable": true,
+          "source": "Georgia Secretary of State"
+        },
+        {
+          "date": "2026-05-19",
+          "type": "primary",
+          "description": "Georgia Primary Election",
+          "isReliable": true,
+          "source": "Georgia Secretary of State"
+        }
+      ],
+      "lastVerified": "2026-01-13",
+      "coverageNotes": "Runoff elections may occur if no candidate receives majority"
+    },
+    "MI": {
+      "stateId": "MI",
+      "dates": [
+        {
+          "date": "2026-10-19",
+          "type": "registration_deadline",
+          "description": "Online/Mail Registration Deadline (15 days before election)",
+          "isReliable": true,
+          "source": "Michigan Secretary of State",
+          "sourceUrl": "https://mvic.sos.state.mi.us/"
+        },
+        {
+          "date": "2026-10-24",
+          "type": "early_voting_start",
+          "description": "Early Voting Begins (9+ days before election)",
+          "isReliable": true,
+          "source": "Michigan Secretary of State"
+        },
+        {
+          "date": "2026-08-04",
+          "type": "primary",
+          "description": "Michigan Primary Election",
+          "isReliable": true,
+          "source": "Michigan Secretary of State"
+        }
+      ],
+      "lastVerified": "2026-01-11",
+      "coverageNotes": "Same-day registration available at clerk's office through Election Day"
+    },
+    "NC": {
+      "stateId": "NC",
+      "dates": [
+        {
+          "date": "2026-10-09",
+          "type": "registration_deadline",
+          "description": "Voter Registration Deadline (25 days before election)",
+          "isReliable": true,
+          "source": "NC State Board of Elections",
+          "sourceUrl": "https://www.ncsbe.gov/"
+        },
+        {
+          "date": "2026-10-15",
+          "type": "early_voting_start",
+          "description": "One-Stop Early Voting Begins (3rd Thursday before election)",
+          "isReliable": true,
+          "source": "NC State Board of Elections"
+        },
+        {
+          "date": "2026-05-05",
+          "type": "primary",
+          "description": "North Carolina Primary Election",
+          "isReliable": true,
+          "source": "NC State Board of Elections"
+        }
+      ],
+      "lastVerified": "2026-01-16",
+      "coverageNotes": "Same-day registration available during early voting period"
+    },
+    "NV": {
+      "stateId": "NV",
+      "dates": [
+        {
+          "date": "2026-10-06",
+          "type": "registration_deadline",
+          "description": "Registration Deadline (5th Tuesday before election - by mail)",
+          "isReliable": true,
+          "source": "Nevada Secretary of State",
+          "sourceUrl": "https://www.nvsos.gov/sos/elections"
+        },
+        {
+          "date": "2026-10-17",
+          "type": "early_voting_start",
+          "description": "Early Voting Begins (17 days before election)",
+          "isReliable": true,
+          "source": "Nevada Secretary of State"
+        },
+        {
+          "date": "2026-06-09",
+          "type": "primary",
+          "description": "Nevada Primary Election",
+          "isReliable": true,
+          "source": "Nevada Secretary of State"
+        }
+      ],
+      "lastVerified": "2026-01-09",
+      "coverageNotes": "Same-day registration available during early voting and Election Day"
+    },
+    "PA": {
+      "stateId": "PA",
+      "dates": [
+        {
+          "date": "2026-10-19",
+          "type": "registration_deadline",
+          "description": "Voter Registration Deadline (15 days before election)",
+          "isReliable": true,
+          "source": "Pennsylvania Department of State",
+          "sourceUrl": "https://www.vote.pa.gov/"
+        },
+        {
+          "date": "2026-09-19",
+          "type": "early_voting_start",
+          "description": "Mail-in/Absentee Ballot Applications Available",
+          "isReliable": true,
+          "source": "Pennsylvania Department of State"
+        },
+        {
+          "date": "2026-05-19",
+          "type": "primary",
+          "description": "Pennsylvania Primary Election",
+          "isReliable": true,
+          "source": "Pennsylvania Department of State"
+        }
+      ],
+      "lastVerified": "2026-01-17",
+      "coverageNotes": "No in-person early voting; mail-in voting available"
+    },
+    "TX": {
+      "stateId": "TX",
+      "dates": [
+        {
+          "date": "2026-10-05",
+          "type": "registration_deadline",
+          "description": "Voter Registration Deadline (30 days before election)",
+          "isReliable": true,
+          "source": "Texas Secretary of State",
+          "sourceUrl": "https://www.sos.texas.gov/elections/"
+        },
+        {
+          "date": "2026-10-19",
+          "type": "early_voting_start",
+          "description": "Early Voting Begins (17 days before election)",
+          "isReliable": true,
+          "source": "Texas Secretary of State"
+        },
+        {
+          "date": "2026-03-03",
+          "type": "primary",
+          "description": "Texas Primary Election",
+          "isReliable": true,
+          "source": "Texas Secretary of State"
+        }
+      ],
+      "lastVerified": "2026-01-08",
+      "coverageNotes": "No same-day registration or online registration"
+    },
+    "WI": {
+      "stateId": "WI",
+      "dates": [
+        {
+          "date": "2026-10-14",
+          "type": "registration_deadline",
+          "description": "Online/Mail Registration Deadline (20 days before election)",
+          "isReliable": true,
+          "source": "Wisconsin Elections Commission",
+          "sourceUrl": "https://elections.wi.gov/"
+        },
+        {
+          "date": "2026-10-20",
+          "type": "early_voting_start",
+          "description": "In-Person Absentee Voting Period (2 weeks before election)",
+          "isReliable": true,
+          "source": "Wisconsin Elections Commission"
+        },
+        {
+          "date": "2026-08-11",
+          "type": "primary",
+          "description": "Wisconsin Primary Election",
+          "isReliable": true,
+          "source": "Wisconsin Elections Commission"
+        }
+      ],
+      "lastVerified": "2026-01-01",
+      "coverageNotes": "Same-day registration available at polling place with proof of residence"
+    }
+  }
+}

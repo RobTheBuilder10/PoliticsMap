@@ -1,0 +1,48 @@
+{
+  "name": "politics-map",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "type-check": "tsc --noEmit",
+    "data:fetch": "tsx scripts/fetch-data.ts",
+    "data:validate": "tsx scripts/validate-data.ts",
+    "data:refresh": "tsx scripts/refresh-pipeline.ts"
+  },
+  "dependencies": {
+    "d3": "^7.8.5",
+    "d3-geo": "^3.1.0",
+    "date-fns": "^3.3.1",
+    "framer-motion": "^11.0.3",
+    "html-to-image": "^1.11.11",
+    "lodash": "^4.17.21",
+    "lz-string": "^1.5.0",
+    "next": "14.1.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "recharts": "^2.12.0",
+    "topojson-client": "^3.1.0",
+    "uuid": "^9.0.1",
+    "zustand": "^4.5.0"
+  },
+  "devDependencies": {
+    "@types/d3": "^7.4.3",
+    "@types/d3-geo": "^3.1.0",
+    "@types/lodash": "^4.14.202",
+    "@types/node": "^20.11.16",
+    "@types/react": "^18.2.52",
+    "@types/react-dom": "^18.2.18",
+    "@types/topojson-client": "^3.1.4",
+    "@types/uuid": "^9.0.8",
+    "autoprefixer": "^10.4.17",
+    "eslint": "^8.56.0",
+    "eslint-config-next": "14.1.0",
+    "postcss": "^8.4.33",
+    "tailwindcss": "^3.4.1",
+    "tsx": "^4.7.0",
+    "typescript": "^5.3.3"
+  }
+}

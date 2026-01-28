@@ -1,0 +1,140 @@
+name: Monthly Data Refresh
+
+on:
+  # Run on the 1st of every month at 6:00 AM UTC
+  schedule:
+    - cron: '0 6 1 * *'
+
+  # Allow manual trigger
+  workflow_dispatch:
+    inputs:
+      force_refresh:
+        description: 'Force refresh all states'
+        required: false
+        default: 'false'
+        type: boolean
+
+jobs:
+  refresh-data:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Run data refresh pipeline
+        id: refresh
+        run: |
+          npm run data:refresh
+        env:
+          FORCE_REFRESH: ${{ github.event.inputs.force_refresh }}
+
+      - name: Check for changes
+        id: check_changes
+        run: |
+          git diff --quiet data/ || echo "changes=true" >> $GITHUB_OUTPUT
+
+      - name: Commit and push changes
+        if: steps.check_changes.outputs.changes == 'true'
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add data/
+          git commit -m "chore: monthly data refresh $(date +%Y-%m-%d)
+
+          Automated data refresh from state election offices.
+          See data/errors.json for any issues encountered."
+          git push
+
+      - name: Create summary
+        run: |
+          echo "## Data Refresh Summary" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "**Date:** $(date)" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          if [ -f data/errors.json ]; then
+            echo "### Pipeline Status" >> $GITHUB_STEP_SUMMARY
+            cat data/errors.json | jq -r '.lastPipelineRun | "- States Processed: \(.statesProcessed)\n- Successful: \(.statesSuccessful)\n- Failed: \(.statesFailed)\n- Duration: \(.duration)ms"' >> $GITHUB_STEP_SUMMARY
+            echo "" >> $GITHUB_STEP_SUMMARY
+            ERROR_COUNT=$(cat data/errors.json | jq '.errors | length')
+            if [ "$ERROR_COUNT" -gt "0" ]; then
+              echo "### Errors ($ERROR_COUNT)" >> $GITHUB_STEP_SUMMARY
+              cat data/errors.json | jq -r '.errors[] | "- **\(.stateId)**: \(.message)"' >> $GITHUB_STEP_SUMMARY
+            fi
+          fi
+
+  # Build and validate after data refresh
+  build:
+    needs: refresh-data
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Pull latest changes
+        run: git pull
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Type check
+        run: npm run type-check
+
+      - name: Build application
+        run: npm run build
+
+      - name: Validate data
+        run: npm run data:validate
+
+  # Notify on failure
+  notify-failure:
+    needs: [refresh-data, build]
+    if: failure()
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Create failure issue
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const title = `Data refresh failed on ${new Date().toISOString().split('T')[0]}`;
+            const body = `The monthly data refresh pipeline has failed.
+
+            **Workflow Run:** [${context.runId}](${context.serverUrl}/${context.repo.owner}/${context.repo.repo}/actions/runs/${context.runId})
+
+            Please investigate and resolve the issue.
+
+            Common causes:
+            - State website structure changed
+            - Network connectivity issues
+            - Data format changes
+
+            cc: @maintainers`;
+
+            await github.rest.issues.create({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              title,
+              body,
+              labels: ['bug', 'data-pipeline']
+            });

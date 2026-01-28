@@ -1,0 +1,129 @@
+{
+  "metadata": {
+    "version": "1.0.0",
+    "lastUpdated": "2026-01-27",
+    "description": "Data sources and their availability"
+  },
+  "sources": [
+    {
+      "id": "az-sos",
+      "name": "Arizona Secretary of State",
+      "url": "https://azsos.gov/elections/voter-registration-historical-election-data",
+      "type": "registration",
+      "states": ["AZ"],
+      "updateFrequency": "Monthly",
+      "lastChecked": "2026-01-27",
+      "notes": "Comprehensive monthly registration statistics with party breakdown"
+    },
+    {
+      "id": "ca-sos",
+      "name": "California Secretary of State",
+      "url": "https://www.sos.ca.gov/elections/voter-registration",
+      "type": "registration",
+      "states": ["CA"],
+      "updateFrequency": "Every 60 days",
+      "lastChecked": "2026-01-27",
+      "notes": "Report of Registration with party breakdown"
+    },
+    {
+      "id": "co-sos",
+      "name": "Colorado Secretary of State",
+      "url": "https://www.sos.state.co.us/pubs/elections/VoterRegNumbers/VoterRegNumbers.html",
+      "type": "registration",
+      "states": ["CO"],
+      "updateFrequency": "Monthly",
+      "lastChecked": "2026-01-27",
+      "notes": "Monthly voter registration statistics"
+    },
+    {
+      "id": "fl-doe",
+      "name": "Florida Division of Elections",
+      "url": "https://dos.myflorida.com/elections/data-statistics/voter-registration-statistics/",
+      "type": "registration",
+      "states": ["FL"],
+      "updateFrequency": "Monthly",
+      "lastChecked": "2026-01-27",
+      "notes": "Monthly registration with party breakdown"
+    },
+    {
+      "id": "ga-sos",
+      "name": "Georgia Secretary of State",
+      "url": "https://sos.ga.gov/page/voter-registration-statistics",
+      "type": "registration",
+      "states": ["GA"],
+      "updateFrequency": "Monthly",
+      "lastChecked": "2026-01-27",
+      "notes": "No partisan registration - total counts only"
+    },
+    {
+      "id": "nc-sboe",
+      "name": "NC State Board of Elections",
+      "url": "https://www.ncsbe.gov/results-data/voter-registration-data",
+      "type": "registration",
+      "states": ["NC"],
+      "updateFrequency": "Weekly (aggregated monthly)",
+      "lastChecked": "2026-01-27",
+      "notes": "Weekly snapshots with party breakdown"
+    },
+    {
+      "id": "nv-sos",
+      "name": "Nevada Secretary of State",
+      "url": "https://www.nvsos.gov/sos/elections/voters/voter-registration-statistics",
+      "type": "registration",
+      "states": ["NV"],
+      "updateFrequency": "Monthly",
+      "lastChecked": "2026-01-27",
+      "notes": "Active voter registration statistics"
+    },
+    {
+      "id": "pa-dos",
+      "name": "Pennsylvania Department of State",
+      "url": "https://www.dos.pa.gov/VotingElections/OtherServicesEvents/VotingElectionStatistics/Pages/default.aspx",
+      "type": "registration",
+      "states": ["PA"],
+      "updateFrequency": "Monthly",
+      "lastChecked": "2026-01-27",
+      "notes": "County-level registration with party breakdown"
+    },
+    {
+      "id": "tx-sos",
+      "name": "Texas Secretary of State",
+      "url": "https://www.sos.texas.gov/elections/historical/index.shtml",
+      "type": "registration",
+      "states": ["TX"],
+      "updateFrequency": "Monthly",
+      "lastChecked": "2026-01-27",
+      "notes": "No partisan registration - total counts only"
+    },
+    {
+      "id": "wi-wec",
+      "name": "Wisconsin Elections Commission",
+      "url": "https://elections.wi.gov/statistics-data",
+      "type": "registration",
+      "states": ["WI"],
+      "updateFrequency": "Quarterly",
+      "lastChecked": "2026-01-27",
+      "notes": "No partisan registration - updated quarterly"
+    },
+    {
+      "id": "eac-eavs",
+      "name": "U.S. Election Assistance Commission - EAVS",
+      "url": "https://www.eac.gov/research-and-data/datasets-codebooks-and-surveys",
+      "type": "turnout",
+      "states": ["ALL"],
+      "updateFrequency": "Biennial",
+      "lastChecked": "2026-01-27",
+      "notes": "Election Administration and Voting Survey - baseline reference data"
+    },
+    {
+      "id": "census-cps",
+      "name": "Census Bureau - CPS Voting Supplement",
+      "url": "https://www.census.gov/topics/public-sector/voting.html",
+      "type": "turnout",
+      "states": ["ALL"],
+      "updateFrequency": "Biennial",
+      "lastChecked": "2026-01-27",
+      "notes": "Current Population Survey Voting and Registration Supplement"
+    }
+  ]
+}

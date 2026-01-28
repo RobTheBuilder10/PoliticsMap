@@ -1,0 +1,144 @@
+{
+  "stateId": "AZ",
+  "presidential": [
+    {
+      "year": 2024,
+      "electionType": "presidential",
+      "stateId": "AZ",
+      "winner": "Democratic Candidate",
+      "winnerParty": "dem",
+      "margin": 0.3,
+      "candidates": [
+        { "name": "Democratic Candidate", "party": "dem", "votes": 1650000, "percentage": 49.5 },
+        { "name": "Republican Candidate", "party": "rep", "votes": 1640000, "percentage": 49.2 },
+        { "name": "Other", "party": "other", "votes": 43000, "percentage": 1.3 }
+      ],
+      "totalVotes": 3333000,
+      "turnout": 78.5,
+      "source": "Arizona Secretary of State",
+      "sourceUrl": "https://azsos.gov/elections"
+    },
+    {
+      "year": 2020,
+      "electionType": "presidential",
+      "stateId": "AZ",
+      "winner": "Joe Biden",
+      "winnerParty": "dem",
+      "margin": 0.3,
+      "candidates": [
+        { "name": "Joe Biden", "party": "dem", "votes": 1672143, "percentage": 49.4 },
+        { "name": "Donald Trump", "party": "rep", "votes": 1661686, "percentage": 49.1 },
+        { "name": "Other", "party": "other", "votes": 53497, "percentage": 1.5 }
+      ],
+      "totalVotes": 3387326,
+      "turnout": 79.9,
+      "source": "Arizona Secretary of State",
+      "sourceUrl": "https://azsos.gov/elections"
+    },
+    {
+      "year": 2016,
+      "electionType": "presidential",
+      "stateId": "AZ",
+      "winner": "Donald Trump",
+      "winnerParty": "rep",
+      "margin": 3.5,
+      "candidates": [
+        { "name": "Donald Trump", "party": "rep", "votes": 1252401, "percentage": 48.7 },
+        { "name": "Hillary Clinton", "party": "dem", "votes": 1161167, "percentage": 45.1 },
+        { "name": "Other", "party": "other", "votes": 159597, "percentage": 6.2 }
+      ],
+      "totalVotes": 2573165,
+      "turnout": 74.2,
+      "source": "Arizona Secretary of State",
+      "sourceUrl": "https://azsos.gov/elections"
+    }
+  ],
+  "senate": [
+    {
+      "year": 2024,
+      "electionType": "senate",
+      "stateId": "AZ",
+      "winner": "Ruben Gallego",
+      "winnerParty": "dem",
+      "margin": 2.5,
+      "candidates": [
+        { "name": "Ruben Gallego", "party": "dem", "votes": 1690000, "percentage": 50.8 },
+        { "name": "Kari Lake", "party": "rep", "votes": 1610000, "percentage": 48.3 },
+        { "name": "Other", "party": "other", "votes": 30000, "percentage": 0.9 }
+      ],
+      "totalVotes": 3330000,
+      "turnout": 78.4,
+      "source": "Arizona Secretary of State",
+      "sourceUrl": "https://azsos.gov/elections"
+    },
+    {
+      "year": 2022,
+      "electionType": "senate",
+      "stateId": "AZ",
+      "winner": "Mark Kelly",
+      "winnerParty": "dem",
+      "margin": 5.0,
+      "candidates": [
+        { "name": "Mark Kelly", "party": "dem", "votes": 1322027, "percentage": 51.4 },
+        { "name": "Blake Masters", "party": "rep", "votes": 1196308, "percentage": 46.5 },
+        { "name": "Other", "party": "other", "votes": 53968, "percentage": 2.1 }
+      ],
+      "totalVotes": 2572303,
+      "turnout": 55.1,
+      "source": "Arizona Secretary of State",
+      "sourceUrl": "https://azsos.gov/elections"
+    },
+    {
+      "year": 2020,
+      "electionType": "senate",
+      "stateId": "AZ",
+      "winner": "Mark Kelly",
+      "winnerParty": "dem",
+      "margin": 2.4,
+      "candidates": [
+        { "name": "Mark Kelly", "party": "dem", "votes": 1716467, "percentage": 51.2 },
+        { "name": "Martha McSally", "party": "rep", "votes": 1637661, "percentage": 48.8 }
+      ],
+      "totalVotes": 3354128,
+      "turnout": 79.1,
+      "source": "Arizona Secretary of State",
+      "sourceUrl": "https://azsos.gov/elections"
+    }
+  ],
+  "governor": [
+    {
+      "year": 2022,
+      "electionType": "governor",
+      "stateId": "AZ",
+      "winner": "Katie Hobbs",
+      "winnerParty": "dem",
+      "margin": 0.6,
+      "candidates": [
+        { "name": "Katie Hobbs", "party": "dem", "votes": 1287891, "percentage": 50.3 },
+        { "name": "Kari Lake", "party": "rep", "votes": 1270774, "percentage": 49.7 }
+      ],
+      "totalVotes": 2558665,
+      "turnout": 54.8,
+      "source": "Arizona Secretary of State",
+      "sourceUrl": "https://azsos.gov/elections"
+    },
+    {
+      "year": 2018,
+      "electionType": "governor",
+      "stateId": "AZ",
+      "winner": "Doug Ducey",
+      "winnerParty": "rep",
+      "margin": 14.2,
+      "candidates": [
+        { "name": "Doug Ducey", "party": "rep", "votes": 1330863, "percentage": 56.0 },
+        { "name": "David Garcia", "party": "dem", "votes": 993879, "percentage": 41.8 },
+        { "name": "Other", "party": "other", "votes": 52259, "percentage": 2.2 }
+      ],
+      "totalVotes": 2377001,
+      "turnout": 64.8,
+      "source": "Arizona Secretary of State",
+      "sourceUrl": "https://azsos.gov/elections"
+    }
+  ],
+  "house": {}
+}

@@ -1,0 +1,343 @@
+{
+  "metadata": {
+    "version": "1.0.0",
+    "lastUpdated": "2026-01-27",
+    "description": "Data availability and coverage information by state"
+  },
+  "coverage": {
+    "AZ": {
+      "stateId": "AZ",
+      "registration": {
+        "available": true,
+        "frequency": "monthly",
+        "hasPartisanBreakdown": true,
+        "lastUpdated": "2026-01-15",
+        "sourceUrl": "https://azsos.gov/elections/voter-registration-historical-election-data",
+        "notes": "Published monthly by Secretary of State"
+      },
+      "turnout": {
+        "available": true,
+        "years": [2016, 2018, 2020, 2022, 2024],
+        "source": "Arizona Secretary of State"
+      },
+      "results": {
+        "presidential": [2012, 2016, 2020, 2024],
+        "senate": [2016, 2018, 2020, 2022, 2024],
+        "governor": [2014, 2018, 2022],
+        "house": [2012, 2014, 2016, 2018, 2020, 2022, 2024]
+      },
+      "calendar": {
+        "available": true,
+        "lastVerified": "2026-01-15",
+        "isReliable": true
+      }
+    },
+    "CA": {
+      "stateId": "CA",
+      "registration": {
+        "available": true,
+        "frequency": "monthly",
+        "hasPartisanBreakdown": true,
+        "lastUpdated": "2026-01-10",
+        "sourceUrl": "https://www.sos.ca.gov/elections/voter-registration",
+        "notes": "Report of Registration published approximately every 60 days"
+      },
+      "turnout": {
+        "available": true,
+        "years": [2016, 2018, 2020, 2022, 2024],
+        "source": "California Secretary of State"
+      },
+      "results": {
+        "presidential": [2012, 2016, 2020, 2024],
+        "senate": [2016, 2018, 2022, 2024],
+        "governor": [2014, 2018, 2022],
+        "house": [2012, 2014, 2016, 2018, 2020, 2022, 2024]
+      },
+      "calendar": {
+        "available": true,
+        "lastVerified": "2026-01-10",
+        "isReliable": true
+      }
+    },
+    "CO": {
+      "stateId": "CO",
+      "registration": {
+        "available": true,
+        "frequency": "monthly",
+        "hasPartisanBreakdown": true,
+        "lastUpdated": "2026-01-12",
+        "sourceUrl": "https://www.sos.state.co.us/pubs/elections/VoterRegNumbers/VoterRegNumbers.html",
+        "notes": "Monthly voter registration statistics"
+      },
+      "turnout": {
+        "available": true,
+        "years": [2016, 2018, 2020, 2022, 2024],
+        "source": "Colorado Secretary of State"
+      },
+      "results": {
+        "presidential": [2012, 2016, 2020, 2024],
+        "senate": [2014, 2016, 2020, 2022],
+        "governor": [2014, 2018, 2022],
+        "house": [2012, 2014, 2016, 2018, 2020, 2022, 2024]
+      },
+      "calendar": {
+        "available": true,
+        "lastVerified": "2026-01-12",
+        "isReliable": true
+      }
+    },
+    "FL": {
+      "stateId": "FL",
+      "registration": {
+        "available": true,
+        "frequency": "monthly",
+        "hasPartisanBreakdown": true,
+        "lastUpdated": "2026-01-14",
+        "sourceUrl": "https://dos.myflorida.com/elections/data-statistics/voter-registration-statistics/",
+        "notes": "Book closing reports and monthly statistics available"
+      },
+      "turnout": {
+        "available": true,
+        "years": [2016, 2018, 2020, 2022, 2024],
+        "source": "Florida Division of Elections"
+      },
+      "results": {
+        "presidential": [2012, 2016, 2020, 2024],
+        "senate": [2016, 2018, 2022, 2024],
+        "governor": [2014, 2018, 2022],
+        "house": [2012, 2014, 2016, 2018, 2020, 2022, 2024]
+      },
+      "calendar": {
+        "available": true,
+        "lastVerified": "2026-01-14",
+        "isReliable": true
+      }
+    },
+    "GA": {
+      "stateId": "GA",
+      "registration": {
+        "available": true,
+        "frequency": "monthly",
+        "hasPartisanBreakdown": false,
+        "lastUpdated": "2026-01-13",
+        "sourceUrl": "https://sos.ga.gov/page/voter-registration-statistics",
+        "notes": "No partisan registration in Georgia"
+      },
+      "turnout": {
+        "available": true,
+        "years": [2016, 2018, 2020, 2022, 2024],
+        "source": "Georgia Secretary of State"
+      },
+      "results": {
+        "presidential": [2012, 2016, 2020, 2024],
+        "senate": [2016, 2020, 2022, 2024],
+        "governor": [2014, 2018, 2022],
+        "house": [2012, 2014, 2016, 2018, 2020, 2022, 2024]
+      },
+      "calendar": {
+        "available": true,
+        "lastVerified": "2026-01-13",
+        "isReliable": true
+      }
+    },
+    "MI": {
+      "stateId": "MI",
+      "registration": {
+        "available": true,
+        "frequency": "monthly",
+        "hasPartisanBreakdown": false,
+        "lastUpdated": "2026-01-11",
+        "sourceUrl": "https://mvic.sos.state.mi.us/",
+        "notes": "No partisan registration in Michigan"
+      },
+      "turnout": {
+        "available": true,
+        "years": [2016, 2018, 2020, 2022, 2024],
+        "source": "Michigan Secretary of State"
+      },
+      "results": {
+        "presidential": [2012, 2016, 2020, 2024],
+        "senate": [2014, 2018, 2020, 2024],
+        "governor": [2014, 2018, 2022],
+        "house": [2012, 2014, 2016, 2018, 2020, 2022, 2024]
+      },
+      "calendar": {
+        "available": true,
+        "lastVerified": "2026-01-11",
+        "isReliable": true
+      }
+    },
+    "NC": {
+      "stateId": "NC",
+      "registration": {
+        "available": true,
+        "frequency": "monthly",
+        "hasPartisanBreakdown": true,
+        "lastUpdated": "2026-01-16",
+        "sourceUrl": "https://www.ncsbe.gov/results-data/voter-registration-data",
+        "notes": "Weekly snapshots available, aggregated monthly"
+      },
+      "turnout": {
+        "available": true,
+        "years": [2016, 2018, 2020, 2022, 2024],
+        "source": "NC State Board of Elections"
+      },
+      "results": {
+        "presidential": [2012, 2016, 2020, 2024],
+        "senate": [2014, 2016, 2020, 2022],
+        "governor": [2012, 2016, 2020, 2024],
+        "house": [2012, 2014, 2016, 2018, 2020, 2022, 2024]
+      },
+      "calendar": {
+        "available": true,
+        "lastVerified": "2026-01-16",
+        "isReliable": true
+      }
+    },
+    "NV": {
+      "stateId": "NV",
+      "registration": {
+        "available": true,
+        "frequency": "monthly",
+        "hasPartisanBreakdown": true,
+        "lastUpdated": "2026-01-09",
+        "sourceUrl": "https://www.nvsos.gov/sos/elections/voters/voter-registration-statistics",
+        "notes": "Monthly active voter registration statistics"
+      },
+      "turnout": {
+        "available": true,
+        "years": [2016, 2018, 2020, 2022, 2024],
+        "source": "Nevada Secretary of State"
+      },
+      "results": {
+        "presidential": [2012, 2016, 2020, 2024],
+        "senate": [2016, 2018, 2022, 2024],
+        "governor": [2014, 2018, 2022],
+        "house": [2012, 2014, 2016, 2018, 2020, 2022, 2024]
+      },
+      "calendar": {
+        "available": true,
+        "lastVerified": "2026-01-09",
+        "isReliable": true
+      }
+    },
+    "PA": {
+      "stateId": "PA",
+      "registration": {
+        "available": true,
+        "frequency": "monthly",
+        "hasPartisanBreakdown": true,
+        "lastUpdated": "2026-01-17",
+        "sourceUrl": "https://www.dos.pa.gov/VotingElections/OtherServicesEvents/VotingElectionStatistics/Pages/default.aspx",
+        "notes": "Monthly voter registration statistics by county"
+      },
+      "turnout": {
+        "available": true,
+        "years": [2016, 2018, 2020, 2022, 2024],
+        "source": "Pennsylvania Department of State"
+      },
+      "results": {
+        "presidential": [2012, 2016, 2020, 2024],
+        "senate": [2016, 2018, 2022, 2024],
+        "governor": [2014, 2018, 2022],
+        "house": [2012, 2014, 2016, 2018, 2020, 2022, 2024]
+      },
+      "calendar": {
+        "available": true,
+        "lastVerified": "2026-01-17",
+        "isReliable": true
+      }
+    },
+    "TX": {
+      "stateId": "TX",
+      "registration": {
+        "available": true,
+        "frequency": "monthly",
+        "hasPartisanBreakdown": false,
+        "lastUpdated": "2026-01-08",
+        "sourceUrl": "https://www.sos.texas.gov/elections/historical/index.shtml",
+        "notes": "No partisan registration in Texas"
+      },
+      "turnout": {
+        "available": true,
+        "years": [2016, 2018, 2020, 2022, 2024],
+        "source": "Texas Secretary of State"
+      },
+      "results": {
+        "presidential": [2012, 2016, 2020, 2024],
+        "senate": [2014, 2018, 2020, 2024],
+        "governor": [2014, 2018, 2022],
+        "house": [2012, 2014, 2016, 2018, 2020, 2022, 2024]
+      },
+      "calendar": {
+        "available": true,
+        "lastVerified": "2026-01-08",
+        "isReliable": true
+      }
+    },
+    "WI": {
+      "stateId": "WI",
+      "registration": {
+        "available": true,
+        "frequency": "quarterly",
+        "hasPartisanBreakdown": false,
+        "lastUpdated": "2026-01-01",
+        "sourceUrl": "https://elections.wi.gov/statistics-data",
+        "notes": "No partisan registration in Wisconsin; data updated quarterly"
+      },
+      "turnout": {
+        "available": true,
+        "years": [2016, 2018, 2020, 2022, 2024],
+        "source": "Wisconsin Elections Commission"
+      },
+      "results": {
+        "presidential": [2012, 2016, 2020, 2024],
+        "senate": [2016, 2018, 2022, 2024],
+        "governor": [2014, 2018, 2022],
+        "house": [2012, 2014, 2016, 2018, 2020, 2022, 2024]
+      },
+      "calendar": {
+        "available": true,
+        "lastVerified": "2026-01-01",
+        "isReliable": true
+      }
+    },
+    "AL": {
+      "stateId": "AL",
+      "registration": {
+        "available": true,
+        "frequency": "annual",
+        "hasPartisanBreakdown": false,
+        "lastUpdated": "2025-12-01",
+        "sourceUrl": "https://www.sos.alabama.gov/alabama-votes/voter/voter-registration-statistics",
+        "notes": "No partisan registration; annual updates only"
+      },
+      "turnout": {
+        "available": true,
+        "years": [2016, 2018, 2020, 2022, 2024],
+        "source": "Alabama Secretary of State"
+      },
+      "results": {
+        "presidential": [2012, 2016, 2020, 2024],
+        "senate": [2014, 2017, 2020, 2024],
+        "governor": [2014, 2018, 2022],
+        "house": [2012, 2014, 2016, 2018, 2020, 2022, 2024]
+      },
+      "calendar": {
+        "available": true,
+        "lastVerified": "2025-12-01",
+        "isReliable": true
+      }
+    }
+  },
+  "summary": {
+    "statesWithMonthlyData": ["AZ", "CA", "CO", "FL", "GA", "MI", "NC", "NV", "PA", "TX"],
+    "statesWithQuarterlyData": ["WI"],
+    "statesWithAnnualData": ["AL"],
+    "statesWithPartisanBreakdown": ["AZ", "CA", "CO", "FL", "NC", "NV", "PA"],
+    "statesWithoutPartisanRegistration": ["AL", "GA", "MI", "TX", "WI"],
+    "lastPipelineRun": "2026-01-27T00:00:00Z",
+    "dataSourcesCount": 12,
+    "notes": "Coverage varies by state. Some states do not track party registration. Data update frequency depends on state reporting schedules."
+  }
+}

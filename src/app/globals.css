@@ -1,0 +1,171 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --dem-safe: #1a4480;
+    --dem-likely: #2e6db4;
+    --dem-lean: #5c9cd8;
+    --dem-tilt: #a6cee3;
+    --rep-safe: #8b0000;
+    --rep-likely: #c41e3a;
+    --rep-lean: #e65c5c;
+    --rep-tilt: #f4a6a6;
+    --battleground: #7b2d8e;
+    --battleground-light: #9b4daa;
+  }
+
+  .dark {
+    color-scheme: dark;
+  }
+
+  * {
+    @apply border-surface-200 dark:border-surface-700;
+  }
+
+  body {
+    @apply bg-surface-50 dark:bg-surface-900 text-surface-900 dark:text-surface-100;
+    font-feature-settings: "rlig" 1, "calt" 1;
+  }
+
+  /* Scrollbar styling */
+  ::-webkit-scrollbar {
+    @apply w-2 h-2;
+  }
+
+  ::-webkit-scrollbar-track {
+    @apply bg-surface-100 dark:bg-surface-800;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    @apply bg-surface-300 dark:bg-surface-600 rounded-full;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    @apply bg-surface-400 dark:bg-surface-500;
+  }
+}
+
+@layer components {
+  /* Focus styles */
+  .focus-ring {
+    @apply focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 dark:focus:ring-offset-surface-900;
+  }
+
+  /* Button base */
+  .btn {
+    @apply inline-flex items-center justify-center gap-2 px-4 py-2 rounded-lg font-medium transition-colors focus-ring;
+  }
+
+  .btn-primary {
+    @apply bg-blue-600 text-white hover:bg-blue-700;
+  }
+
+  .btn-secondary {
+    @apply bg-surface-100 dark:bg-surface-700 text-surface-700 dark:text-surface-200 hover:bg-surface-200 dark:hover:bg-surface-600;
+  }
+
+  .btn-outline {
+    @apply border border-surface-200 dark:border-surface-600 text-surface-600 dark:text-surface-300 hover:bg-surface-50 dark:hover:bg-surface-800;
+  }
+
+  /* Card */
+  .card {
+    @apply bg-white dark:bg-surface-800 rounded-xl border border-surface-200 dark:border-surface-700 shadow-sm;
+  }
+
+  /* Input */
+  .input {
+    @apply w-full px-3 py-2 rounded-lg border border-surface-200 dark:border-surface-600 bg-white dark:bg-surface-800 text-surface-900 dark:text-white placeholder-surface-400 focus:outline-none focus:ring-2 focus:ring-blue-500;
+  }
+
+  /* Badge */
+  .badge {
+    @apply inline-flex items-center px-2 py-0.5 rounded text-xs font-medium;
+  }
+
+  /* Map specific */
+  .state {
+    @apply transition-all duration-150;
+  }
+
+  .state:hover {
+    filter: brightness(1.05);
+  }
+
+  .state:focus {
+    @apply outline-none;
+  }
+
+  .state:focus-visible {
+    stroke: #3b82f6;
+    stroke-width: 2;
+  }
+}
+
+@layer utilities {
+  /* Text balance */
+  .text-balance {
+    text-wrap: balance;
+  }
+
+  /* Hide scrollbar but keep functionality */
+  .scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
+
+  /* Map colors - standard */
+  .fill-dem-safe { fill: var(--dem-safe); }
+  .fill-dem-likely { fill: var(--dem-likely); }
+  .fill-dem-lean { fill: var(--dem-lean); }
+  .fill-dem-tilt { fill: var(--dem-tilt); }
+  .fill-rep-safe { fill: var(--rep-safe); }
+  .fill-rep-likely { fill: var(--rep-likely); }
+  .fill-rep-lean { fill: var(--rep-lean); }
+  .fill-rep-tilt { fill: var(--rep-tilt); }
+  .fill-battleground { fill: var(--battleground); }
+
+  /* Animations */
+  @keyframes shimmer {
+    0% {
+      background-position: -200% 0;
+    }
+    100% {
+      background-position: 200% 0;
+    }
+  }
+
+  .animate-shimmer {
+    background: linear-gradient(
+      90deg,
+      transparent 0%,
+      rgba(255, 255, 255, 0.2) 50%,
+      transparent 100%
+    );
+    background-size: 200% 100%;
+    animation: shimmer 1.5s infinite;
+  }
+}
+
+/* Print styles */
+@media print {
+  .no-print {
+    display: none !important;
+  }
+
+  body {
+    background: white;
+    color: black;
+  }
+
+  .card {
+    border: 1px solid #e5e7eb;
+    box-shadow: none;
+  }
+}

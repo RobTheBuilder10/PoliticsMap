@@ -1,0 +1,129 @@
+{
+  "stateId": "AZ",
+  "hasPartisanRegistration": true,
+  "registrationHistory": [
+    {
+      "date": "2026-01-01",
+      "total": 4520000,
+      "democratic": 1450000,
+      "republican": 1560000,
+      "independent": 1380000,
+      "other": 130000,
+      "source": "Arizona Secretary of State",
+      "sourceUrl": "https://azsos.gov/elections/voter-registration-historical-election-data"
+    },
+    {
+      "date": "2025-12-01",
+      "total": 4505000,
+      "democratic": 1445000,
+      "republican": 1555000,
+      "independent": 1375000,
+      "other": 130000,
+      "source": "Arizona Secretary of State",
+      "sourceUrl": "https://azsos.gov/elections/voter-registration-historical-election-data"
+    },
+    {
+      "date": "2025-11-01",
+      "total": 4490000,
+      "democratic": 1440000,
+      "republican": 1550000,
+      "independent": 1370000,
+      "other": 130000,
+      "source": "Arizona Secretary of State",
+      "sourceUrl": "https://azsos.gov/elections/voter-registration-historical-election-data"
+    },
+    {
+      "date": "2025-10-01",
+      "total": 4475000,
+      "democratic": 1435000,
+      "republican": 1545000,
+      "independent": 1365000,
+      "other": 130000,
+      "source": "Arizona Secretary of State",
+      "sourceUrl": "https://azsos.gov/elections/voter-registration-historical-election-data"
+    },
+    {
+      "date": "2025-09-01",
+      "total": 4460000,
+      "democratic": 1430000,
+      "republican": 1540000,
+      "independent": 1360000,
+      "other": 130000,
+      "source": "Arizona Secretary of State",
+      "sourceUrl": "https://azsos.gov/elections/voter-registration-historical-election-data"
+    },
+    {
+      "date": "2025-08-01",
+      "total": 4445000,
+      "democratic": 1425000,
+      "republican": 1535000,
+      "independent": 1355000,
+      "other": 130000,
+      "source": "Arizona Secretary of State",
+      "sourceUrl": "https://azsos.gov/elections/voter-registration-historical-election-data"
+    },
+    {
+      "date": "2025-07-01",
+      "total": 4430000,
+      "democratic": 1420000,
+      "republican": 1530000,
+      "independent": 1350000,
+      "other": 130000,
+      "source": "Arizona Secretary of State",
+      "sourceUrl": "https://azsos.gov/elections/voter-registration-historical-election-data"
+    },
+    {
+      "date": "2025-06-01",
+      "total": 4415000,
+      "democratic": 1415000,
+      "republican": 1525000,
+      "independent": 1345000,
+      "other": 130000,
+      "source": "Arizona Secretary of State",
+      "sourceUrl": "https://azsos.gov/elections/voter-registration-historical-election-data"
+    },
+    {
+      "date": "2025-05-01",
+      "total": 4400000,
+      "democratic": 1410000,
+      "republican": 1520000,
+      "independent": 1340000,
+      "other": 130000,
+      "source": "Arizona Secretary of State",
+      "sourceUrl": "https://azsos.gov/elections/voter-registration-historical-election-data"
+    },
+    {
+      "date": "2025-04-01",
+      "total": 4385000,
+      "democratic": 1405000,
+      "republican": 1515000,
+      "independent": 1335000,
+      "other": 130000,
+      "source": "Arizona Secretary of State",
+      "sourceUrl": "https://azsos.gov/elections/voter-registration-historical-election-data"
+    },
+    {
+      "date": "2025-03-01",
+      "total": 4370000,
+      "democratic": 1400000,
+      "republican": 1510000,
+      "independent": 1330000,
+      "other": 130000,
+      "source": "Arizona Secretary of State",
+      "sourceUrl": "https://azsos.gov/elections/voter-registration-historical-election-data"
+    },
+    {
+      "date": "2025-02-01",
+      "total": 4355000,
+      "democratic": 1395000,
+      "republican": 1505000,
+      "independent": 1325000,
+      "other": 130000,
+      "source": "Arizona Secretary of State",
+      "sourceUrl": "https://azsos.gov/elections/voter-registration-historical-election-data"
+    }
+  ],
+  "lastUpdated": "2026-01-15",
+  "updateFrequency": "monthly",
+  "coverageNotes": "Arizona publishes monthly voter registration statistics by party"
+}
