@@ -37,7 +37,7 @@ interface RegistrationChartProps {
 }
 
 export function RegistrationChart({ stateId, hasPartisanData }: RegistrationChartProps) {
-  const data = SAMPLE_DATA[stateId] || [];
+  const data = useMemo(() => SAMPLE_DATA[stateId] || [], [stateId]);
 
   const chartData = useMemo(() => {
     return data.map((d) => ({
