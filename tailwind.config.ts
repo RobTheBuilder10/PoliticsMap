@@ -60,7 +60,7 @@ const config: Config = {
       },
       fontFamily: {
         sans: ['Inter', 'system-ui', 'sans-serif'],
-        mono: ['JetBrains Mono', 'Menlo', 'monospace'],
+        mono: ['"JetBrains Mono"', 'Menlo', 'monospace'],
       },
       animation: {
         'fade-in': 'fadeIn 0.2s ease-in-out',

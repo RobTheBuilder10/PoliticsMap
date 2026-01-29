@@ -271,6 +271,7 @@ export function USMap({ width = 960, height = 600, className }: USMapProps) {
       g.append('path')
         .datum(nationFeature)
         .attr('class', 'nation-border')
+        .attr('d', pathGenerator as any)
         .attr('fill', 'none')
         .attr('stroke', '#27272a')
         .attr('stroke-width', 1)

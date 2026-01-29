@@ -106,8 +106,8 @@ const defaultScenario: Scenario = {
   id: 'default',
   name: 'My Scenario',
   description: 'Create your own election scenario',
-  createdAt: new Date().toISOString(),
-  updatedAt: new Date().toISOString(),
+  createdAt: '2026-01-01T00:00:00.000Z',
+  updatedAt: '2026-01-01T00:00:00.000Z',
   ratings: {
     presidential: {},
     senate: {},
