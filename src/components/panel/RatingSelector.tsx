@@ -70,7 +70,7 @@ export function RatingSelector({
             )}
           >
             Democrat
-            <span className="ml-1 text-xs opacity-60">(D)</span>
+            <span className="ml-1 text-xs opacity-60 hidden sm:inline">(D)</span>
           </button>
 
           <button
@@ -86,7 +86,7 @@ export function RatingSelector({
             )}
           >
             Toss-up
-            <span className="ml-1 text-xs opacity-60">(P)</span>
+            <span className="ml-1 text-xs opacity-60 hidden sm:inline">(P)</span>
           </button>
 
           <button
@@ -102,7 +102,7 @@ export function RatingSelector({
             )}
           >
             Republican
-            <span className="ml-1 text-xs opacity-60">(R)</span>
+            <span className="ml-1 text-xs opacity-60 hidden sm:inline">(R)</span>
           </button>
         </div>
       </div>
@@ -139,7 +139,7 @@ export function RatingSelector({
                   }}
                 >
                   {s.label}
-                  <span className="absolute -top-1 -right-1 w-4 h-4 text-[10px] font-mono bg-surface-700 text-white rounded flex items-center justify-center">
+                  <span className="absolute -top-1 -right-1 w-4 h-4 text-[10px] font-mono bg-surface-700 text-white rounded hidden sm:flex items-center justify-center">
                     {s.shortcut}
                   </span>
                 </button>
@@ -155,7 +155,7 @@ export function RatingSelector({
         className="w-full px-4 py-2 text-sm font-medium text-surface-500 dark:text-surface-400 hover:text-surface-700 dark:hover:text-surface-200 border border-dashed border-surface-300 dark:border-surface-600 rounded-lg hover:border-surface-400 transition-colors"
       >
         Clear Rating
-        <span className="ml-1 text-xs opacity-60">(U)</span>
+        <span className="ml-1 text-xs opacity-60 hidden sm:inline">(U)</span>
       </button>
     </div>
   );

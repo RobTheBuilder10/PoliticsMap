@@ -51,7 +51,7 @@ export function MapLegend({ colorblindMode = false, compact = false }: MapLegend
   }
 
   return (
-    <div className="absolute bottom-4 left-4 bg-white/95 dark:bg-surface-800/95 rounded-lg shadow-lg border border-surface-200 dark:border-surface-700 p-3">
+    <div className="hidden sm:block absolute bottom-4 left-4 bg-white/95 dark:bg-surface-800/95 rounded-lg shadow-lg border border-surface-200 dark:border-surface-700 p-3">
       <h4 className="text-xs font-semibold text-surface-500 dark:text-surface-400 uppercase tracking-wide mb-2">
         Rating Scale
       </h4>

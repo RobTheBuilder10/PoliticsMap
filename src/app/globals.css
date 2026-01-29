@@ -27,6 +27,8 @@
   body {
     @apply bg-surface-50 dark:bg-surface-900 text-surface-900 dark:text-surface-100;
     font-feature-settings: "rlig" 1, "calt" 1;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-text-size-adjust: 100%;
   }
 
   /* Scrollbar styling */
@@ -101,6 +103,18 @@
   .state:focus-visible {
     stroke: #3b82f6;
     stroke-width: 2;
+  }
+
+  /* Touch-friendly map interactions */
+  .map-container svg {
+    touch-action: manipulation;
+  }
+
+  /* Ensure proper touch targets on mobile */
+  @media (max-width: 640px) {
+    .btn, button {
+      min-height: 44px;
+    }
   }
 }
 

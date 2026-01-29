@@ -41,6 +41,7 @@ export function USMap({ width = 960, height = 600, className }: USMapProps) {
   const [topoData, setTopoData] = useState<TopoJSONData | null>(null);
   const [loadError, setLoadError] = useState(false);
   const [dimensions, setDimensions] = useState({ width, height });
+  const [isTouchDevice, setIsTouchDevice] = useState(false);
   const [tooltipData, setTooltipData] = useState<{
     stateId: string;
     stateName: string;
@@ -48,6 +49,16 @@ export function USMap({ width = 960, height = 600, className }: USMapProps) {
     y: number;
     rating?: Rating;
   } | null>(null);
+
+  // Detect touch device
+  useEffect(() => {
+    const onTouch = () => {
+      setIsTouchDevice(true);
+      window.removeEventListener('touchstart', onTouch);
+    };
+    window.addEventListener('touchstart', onTouch, { passive: true });
+    return () => window.removeEventListener('touchstart', onTouch);
+  }, []);
 
   const {
     layer,
@@ -293,7 +304,7 @@ export function USMap({ width = 960, height = 600, className }: USMapProps) {
   ]);
 
   return (
-    <div ref={containerRef} className={cn('relative w-full', className)}>
+    <div ref={containerRef} className={cn('relative w-full map-container', className)}>
       <svg
         ref={svgRef}
         width={dimensions.width}
@@ -308,7 +319,7 @@ export function USMap({ width = 960, height = 600, className }: USMapProps) {
 
       <MapLegend colorblindMode={settings.colorblindMode} />
 
-      {tooltipData && (
+      {tooltipData && !isTouchDevice && (
         <MapTooltip
           stateId={tooltipData.stateId}
           stateName={tooltipData.stateName}

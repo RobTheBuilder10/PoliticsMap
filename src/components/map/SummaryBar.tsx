@@ -20,8 +20,8 @@ export function SummaryBar({ className }: SummaryBarProps) {
   const bgColor = colorblind ? 'bg-[#CC79A7]' : 'bg-battleground';
 
   return (
-    <div className={cn('bg-white dark:bg-surface-800 rounded-lg shadow-md border border-surface-200 dark:border-surface-700 p-4', className)}>
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+    <div className={cn('bg-white dark:bg-surface-800 rounded-lg shadow-md border border-surface-200 dark:border-surface-700 p-2 sm:p-4', className)}>
+      <div className="grid grid-cols-3 gap-2 sm:gap-4">
         {/* Electoral College */}
         <div className="text-center">
           <h3 className="text-xs font-semibold text-surface-500 dark:text-surface-400 uppercase tracking-wide mb-2">
@@ -29,21 +29,21 @@ export function SummaryBar({ className }: SummaryBarProps) {
           </h3>
           <div className="flex items-center justify-center gap-2 mb-2">
             <div className="text-center">
-              <div className={cn('text-2xl font-bold', colorblind ? 'text-[#0072B2]' : 'text-dem-likely')}>
+              <div className={cn('text-lg sm:text-2xl font-bold', colorblind ? 'text-[#0072B2]' : 'text-dem-likely')}>
                 {summary.electoralCollege.dem}
               </div>
               <div className="text-xs text-surface-500">Dem</div>
             </div>
             <div className="w-px h-8 bg-surface-200 dark:bg-surface-600" />
             <div className="text-center">
-              <div className={cn('text-2xl font-bold', colorblind ? 'text-[#CC79A7]' : 'text-battleground')}>
+              <div className={cn('text-lg sm:text-2xl font-bold', colorblind ? 'text-[#CC79A7]' : 'text-battleground')}>
                 {summary.electoralCollege.battleground}
               </div>
               <div className="text-xs text-surface-500">Toss-up</div>
             </div>
             <div className="w-px h-8 bg-surface-200 dark:bg-surface-600" />
             <div className="text-center">
-              <div className={cn('text-2xl font-bold', colorblind ? 'text-[#D55E00]' : 'text-rep-likely')}>
+              <div className={cn('text-lg sm:text-2xl font-bold', colorblind ? 'text-[#D55E00]' : 'text-rep-likely')}>
                 {summary.electoralCollege.rep}
               </div>
               <div className="text-xs text-surface-500">Rep</div>
@@ -81,21 +81,21 @@ export function SummaryBar({ className }: SummaryBarProps) {
           </h3>
           <div className="flex items-center justify-center gap-2 mb-2">
             <div className="text-center">
-              <div className={cn('text-2xl font-bold', colorblind ? 'text-[#0072B2]' : 'text-dem-likely')}>
+              <div className={cn('text-lg sm:text-2xl font-bold', colorblind ? 'text-[#0072B2]' : 'text-dem-likely')}>
                 {summary.senate.dem}
               </div>
               <div className="text-xs text-surface-500">Dem</div>
             </div>
             <div className="w-px h-8 bg-surface-200 dark:bg-surface-600" />
             <div className="text-center">
-              <div className={cn('text-2xl font-bold', colorblind ? 'text-[#CC79A7]' : 'text-battleground')}>
+              <div className={cn('text-lg sm:text-2xl font-bold', colorblind ? 'text-[#CC79A7]' : 'text-battleground')}>
                 {summary.senate.battleground}
               </div>
               <div className="text-xs text-surface-500">Toss-up</div>
             </div>
             <div className="w-px h-8 bg-surface-200 dark:bg-surface-600" />
             <div className="text-center">
-              <div className={cn('text-2xl font-bold', colorblind ? 'text-[#D55E00]' : 'text-rep-likely')}>
+              <div className={cn('text-lg sm:text-2xl font-bold', colorblind ? 'text-[#D55E00]' : 'text-rep-likely')}>
                 {summary.senate.rep}
               </div>
               <div className="text-xs text-surface-500">Rep</div>
@@ -133,21 +133,21 @@ export function SummaryBar({ className }: SummaryBarProps) {
           </h3>
           <div className="flex items-center justify-center gap-2 mb-2">
             <div className="text-center">
-              <div className={cn('text-2xl font-bold', colorblind ? 'text-[#0072B2]' : 'text-dem-likely')}>
+              <div className={cn('text-lg sm:text-2xl font-bold', colorblind ? 'text-[#0072B2]' : 'text-dem-likely')}>
                 {summary.house.dem}
               </div>
               <div className="text-xs text-surface-500">Dem</div>
             </div>
             <div className="w-px h-8 bg-surface-200 dark:bg-surface-600" />
             <div className="text-center">
-              <div className={cn('text-2xl font-bold', colorblind ? 'text-[#CC79A7]' : 'text-battleground')}>
+              <div className={cn('text-lg sm:text-2xl font-bold', colorblind ? 'text-[#CC79A7]' : 'text-battleground')}>
                 {summary.house.battleground}
               </div>
               <div className="text-xs text-surface-500">Toss-up</div>
             </div>
             <div className="w-px h-8 bg-surface-200 dark:bg-surface-600" />
             <div className="text-center">
-              <div className={cn('text-2xl font-bold', colorblind ? 'text-[#D55E00]' : 'text-rep-likely')}>
+              <div className={cn('text-lg sm:text-2xl font-bold', colorblind ? 'text-[#D55E00]' : 'text-rep-likely')}>
                 {summary.house.rep}
               </div>
               <div className="text-xs text-surface-500">Rep</div>

@@ -68,7 +68,7 @@ export function ScenarioCompare({
   return (
     <div className={cn('space-y-6', className)}>
       {/* Header */}
-      <div className="grid grid-cols-2 gap-4">
+      <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
         <div className="p-4 bg-white dark:bg-surface-800 rounded-lg border border-surface-200 dark:border-surface-700">
           <h3 className="font-semibold text-surface-900 dark:text-white">
             {scenario1.name}
@@ -92,7 +92,7 @@ export function ScenarioCompare({
         <h4 className="text-sm font-semibold text-surface-700 dark:text-surface-300 mb-4">
           Electoral College Comparison
         </h4>
-        <div className="grid grid-cols-2 gap-4">
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
           {/* Scenario 1 Summary */}
           <div>
             <div className="flex justify-between items-center mb-2">
