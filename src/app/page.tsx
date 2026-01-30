@@ -1,8 +1,8 @@
 'use client';
 
-import React, { useEffect, useCallback } from 'react';
+import React, { useEffect, useCallback, useState } from 'react';
 import { useStore } from '@/store';
-import { USMap, SummaryBar, MapControls } from '@/components/map';
+import { USMap, SummaryBar, MapControls, MobileRatingBar } from '@/components/map';
 import { StateDetailPanel } from '@/components/panel';
 import { getKeyboardAction, getNextState, getPrevState, cn } from '@/lib/utils';
 
@@ -20,9 +20,22 @@ export default function HomePage() {
     toggleSidebar,
   } = useStore();
 
-  // Keyboard shortcuts handler
+  const [isTouchDevice, setIsTouchDevice] = useState(false);
+
+  // Detect touch device to disable keyboard shortcuts
+  useEffect(() => {
+    const onTouch = () => {
+      setIsTouchDevice(true);
+      window.removeEventListener('touchstart', onTouch);
+    };
+    window.addEventListener('touchstart', onTouch, { passive: true });
+    return () => window.removeEventListener('touchstart', onTouch);
+  }, []);
+
+  // Keyboard shortcuts handler — disabled on touch devices
   const handleKeyDown = useCallback(
     (event: KeyboardEvent) => {
+      if (isTouchDevice) return;
       if (!settings.keyboardShortcuts) return;
 
       // Ignore if typing in an input
@@ -107,6 +120,7 @@ export default function HomePage() {
     },
     [
       selectedState,
+      isTouchDevice,
       settings.keyboardShortcuts,
       getCurrentRating,
       setRating,
@@ -120,6 +134,8 @@ export default function HomePage() {
     document.addEventListener('keydown', handleKeyDown);
     return () => document.removeEventListener('keydown', handleKeyDown);
   }, [handleKeyDown]);
+
+  const currentRating = selectedState ? getCurrentRating(selectedState) : undefined;
 
   return (
     <div className="flex flex-col lg:flex-row h-[calc(100vh-3.5rem)]">
@@ -145,30 +161,42 @@ export default function HomePage() {
         </div>
       </div>
 
-      {/* Sidebar Toggle (mobile) */}
-      <button
-        onClick={toggleSidebar}
-        className={cn(
-          'lg:hidden fixed bottom-20 right-4 z-30 p-3 rounded-full shadow-lg transition-all',
-          'flex items-center justify-center',
-          sidebarOpen
-            ? 'bg-surface-800 text-white'
-            : selectedState
-              ? 'bg-blue-600 text-white animate-pulse-ring'
+      {/* Sidebar Toggle (mobile) — hidden when rating bar is showing */}
+      {!selectedState && (
+        <button
+          onClick={toggleSidebar}
+          className={cn(
+            'lg:hidden fixed bottom-20 right-4 z-30 p-3 rounded-full shadow-lg transition-all',
+            'flex items-center justify-center',
+            sidebarOpen
+              ? 'bg-surface-800 text-white'
               : 'bg-blue-600 text-white'
-        )}
-        aria-label={sidebarOpen ? 'Close panel' : 'Open panel'}
-      >
-        {sidebarOpen ? (
-          <svg className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
-          </svg>
-        ) : (
-          <svg className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-          </svg>
-        )}
-      </button>
+          )}
+          aria-label={sidebarOpen ? 'Close panel' : 'Open panel'}
+        >
+          {sidebarOpen ? (
+            <svg className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+            </svg>
+          ) : (
+            <svg className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+            </svg>
+          )}
+        </button>
+      )}
+
+      {/* Mobile Rating Bar — shows when a state is tapped on mobile */}
+      {selectedState && (
+        <MobileRatingBar
+          stateId={selectedState}
+          currentRating={currentRating}
+          colorblindMode={settings.colorblindMode}
+          onRate={(party, strength) => setRating(selectedState, party, strength)}
+          onClear={() => clearRating(selectedState)}
+          onClose={() => selectState(null)}
+        />
+      )}
 
       {/* State Detail Sidebar */}
       <aside
