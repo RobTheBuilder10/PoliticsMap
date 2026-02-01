@@ -1,0 +1,14 @@
+{
+  "stateId": "TX",
+  "hasPartisanRegistration": false,
+  "registrationHistory": [
+    {
+      "date": "2026-02-01",
+      "total": 2677231,
+      "source": "Texas Secretary of State",
+      "sourceUrl": "https://www.sos.texas.gov/elections/historical/index.shtml"
+    }
+  ],
+  "lastUpdated": "2026-02-01T06:23:24.392Z",
+  "updateFrequency": "monthly"
+}

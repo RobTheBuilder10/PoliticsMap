@@ -17,14 +17,43 @@
       },
       "turnout": {
         "available": true,
-        "years": [2016, 2018, 2020, 2022, 2024],
+        "years": [
+          2016,
+          2018,
+          2020,
+          2022,
+          2024
+        ],
         "source": "Arizona Secretary of State"
       },
       "results": {
-        "presidential": [2012, 2016, 2020, 2024],
-        "senate": [2016, 2018, 2020, 2022, 2024],
-        "governor": [2014, 2018, 2022],
-        "house": [2012, 2014, 2016, 2018, 2020, 2022, 2024]
+        "presidential": [
+          2012,
+          2016,
+          2020,
+          2024
+        ],
+        "senate": [
+          2016,
+          2018,
+          2020,
+          2022,
+          2024
+        ],
+        "governor": [
+          2014,
+          2018,
+          2022
+        ],
+        "house": [
+          2012,
+          2014,
+          2016,
+          2018,
+          2020,
+          2022,
+          2024
+        ]
       },
       "calendar": {
         "available": true,
@@ -44,14 +73,42 @@
       },
       "turnout": {
         "available": true,
-        "years": [2016, 2018, 2020, 2022, 2024],
+        "years": [
+          2016,
+          2018,
+          2020,
+          2022,
+          2024
+        ],
         "source": "California Secretary of State"
       },
       "results": {
-        "presidential": [2012, 2016, 2020, 2024],
-        "senate": [2016, 2018, 2022, 2024],
-        "governor": [2014, 2018, 2022],
-        "house": [2012, 2014, 2016, 2018, 2020, 2022, 2024]
+        "presidential": [
+          2012,
+          2016,
+          2020,
+          2024
+        ],
+        "senate": [
+          2016,
+          2018,
+          2022,
+          2024
+        ],
+        "governor": [
+          2014,
+          2018,
+          2022
+        ],
+        "house": [
+          2012,
+          2014,
+          2016,
+          2018,
+          2020,
+          2022,
+          2024
+        ]
       },
       "calendar": {
         "available": true,
@@ -71,14 +128,42 @@
       },
       "turnout": {
         "available": true,
-        "years": [2016, 2018, 2020, 2022, 2024],
+        "years": [
+          2016,
+          2018,
+          2020,
+          2022,
+          2024
+        ],
         "source": "Colorado Secretary of State"
       },
       "results": {
-        "presidential": [2012, 2016, 2020, 2024],
-        "senate": [2014, 2016, 2020, 2022],
-        "governor": [2014, 2018, 2022],
-        "house": [2012, 2014, 2016, 2018, 2020, 2022, 2024]
+        "presidential": [
+          2012,
+          2016,
+          2020,
+          2024
+        ],
+        "senate": [
+          2014,
+          2016,
+          2020,
+          2022
+        ],
+        "governor": [
+          2014,
+          2018,
+          2022
+        ],
+        "house": [
+          2012,
+          2014,
+          2016,
+          2018,
+          2020,
+          2022,
+          2024
+        ]
       },
       "calendar": {
         "available": true,
@@ -98,14 +183,42 @@
       },
       "turnout": {
         "available": true,
-        "years": [2016, 2018, 2020, 2022, 2024],
+        "years": [
+          2016,
+          2018,
+          2020,
+          2022,
+          2024
+        ],
         "source": "Florida Division of Elections"
       },
       "results": {
-        "presidential": [2012, 2016, 2020, 2024],
-        "senate": [2016, 2018, 2022, 2024],
-        "governor": [2014, 2018, 2022],
-        "house": [2012, 2014, 2016, 2018, 2020, 2022, 2024]
+        "presidential": [
+          2012,
+          2016,
+          2020,
+          2024
+        ],
+        "senate": [
+          2016,
+          2018,
+          2022,
+          2024
+        ],
+        "governor": [
+          2014,
+          2018,
+          2022
+        ],
+        "house": [
+          2012,
+          2014,
+          2016,
+          2018,
+          2020,
+          2022,
+          2024
+        ]
       },
       "calendar": {
         "available": true,
@@ -125,14 +238,42 @@
       },
       "turnout": {
         "available": true,
-        "years": [2016, 2018, 2020, 2022, 2024],
+        "years": [
+          2016,
+          2018,
+          2020,
+          2022,
+          2024
+        ],
         "source": "Georgia Secretary of State"
       },
       "results": {
-        "presidential": [2012, 2016, 2020, 2024],
-        "senate": [2016, 2020, 2022, 2024],
-        "governor": [2014, 2018, 2022],
-        "house": [2012, 2014, 2016, 2018, 2020, 2022, 2024]
+        "presidential": [
+          2012,
+          2016,
+          2020,
+          2024
+        ],
+        "senate": [
+          2016,
+          2020,
+          2022,
+          2024
+        ],
+        "governor": [
+          2014,
+          2018,
+          2022
+        ],
+        "house": [
+          2012,
+          2014,
+          2016,
+          2018,
+          2020,
+          2022,
+          2024
+        ]
       },
       "calendar": {
         "available": true,
@@ -152,14 +293,42 @@
       },
       "turnout": {
         "available": true,
-        "years": [2016, 2018, 2020, 2022, 2024],
+        "years": [
+          2016,
+          2018,
+          2020,
+          2022,
+          2024
+        ],
         "source": "Michigan Secretary of State"
       },
       "results": {
-        "presidential": [2012, 2016, 2020, 2024],
-        "senate": [2014, 2018, 2020, 2024],
-        "governor": [2014, 2018, 2022],
-        "house": [2012, 2014, 2016, 2018, 2020, 2022, 2024]
+        "presidential": [
+          2012,
+          2016,
+          2020,
+          2024
+        ],
+        "senate": [
+          2014,
+          2018,
+          2020,
+          2024
+        ],
+        "governor": [
+          2014,
+          2018,
+          2022
+        ],
+        "house": [
+          2012,
+          2014,
+          2016,
+          2018,
+          2020,
+          2022,
+          2024
+        ]
       },
       "calendar": {
         "available": true,
@@ -179,14 +348,43 @@
       },
       "turnout": {
         "available": true,
-        "years": [2016, 2018, 2020, 2022, 2024],
+        "years": [
+          2016,
+          2018,
+          2020,
+          2022,
+          2024
+        ],
         "source": "NC State Board of Elections"
       },
       "results": {
-        "presidential": [2012, 2016, 2020, 2024],
-        "senate": [2014, 2016, 2020, 2022],
-        "governor": [2012, 2016, 2020, 2024],
-        "house": [2012, 2014, 2016, 2018, 2020, 2022, 2024]
+        "presidential": [
+          2012,
+          2016,
+          2020,
+          2024
+        ],
+        "senate": [
+          2014,
+          2016,
+          2020,
+          2022
+        ],
+        "governor": [
+          2012,
+          2016,
+          2020,
+          2024
+        ],
+        "house": [
+          2012,
+          2014,
+          2016,
+          2018,
+          2020,
+          2022,
+          2024
+        ]
       },
       "calendar": {
         "available": true,
@@ -206,14 +404,42 @@
       },
       "turnout": {
         "available": true,
-        "years": [2016, 2018, 2020, 2022, 2024],
+        "years": [
+          2016,
+          2018,
+          2020,
+          2022,
+          2024
+        ],
         "source": "Nevada Secretary of State"
       },
       "results": {
-        "presidential": [2012, 2016, 2020, 2024],
-        "senate": [2016, 2018, 2022, 2024],
-        "governor": [2014, 2018, 2022],
-        "house": [2012, 2014, 2016, 2018, 2020, 2022, 2024]
+        "presidential": [
+          2012,
+          2016,
+          2020,
+          2024
+        ],
+        "senate": [
+          2016,
+          2018,
+          2022,
+          2024
+        ],
+        "governor": [
+          2014,
+          2018,
+          2022
+        ],
+        "house": [
+          2012,
+          2014,
+          2016,
+          2018,
+          2020,
+          2022,
+          2024
+        ]
       },
       "calendar": {
         "available": true,
@@ -233,14 +459,42 @@
       },
       "turnout": {
         "available": true,
-        "years": [2016, 2018, 2020, 2022, 2024],
+        "years": [
+          2016,
+          2018,
+          2020,
+          2022,
+          2024
+        ],
         "source": "Pennsylvania Department of State"
       },
       "results": {
-        "presidential": [2012, 2016, 2020, 2024],
-        "senate": [2016, 2018, 2022, 2024],
-        "governor": [2014, 2018, 2022],
-        "house": [2012, 2014, 2016, 2018, 2020, 2022, 2024]
+        "presidential": [
+          2012,
+          2016,
+          2020,
+          2024
+        ],
+        "senate": [
+          2016,
+          2018,
+          2022,
+          2024
+        ],
+        "governor": [
+          2014,
+          2018,
+          2022
+        ],
+        "house": [
+          2012,
+          2014,
+          2016,
+          2018,
+          2020,
+          2022,
+          2024
+        ]
       },
       "calendar": {
         "available": true,
@@ -260,14 +514,42 @@
       },
       "turnout": {
         "available": true,
-        "years": [2016, 2018, 2020, 2022, 2024],
+        "years": [
+          2016,
+          2018,
+          2020,
+          2022,
+          2024
+        ],
         "source": "Texas Secretary of State"
       },
       "results": {
-        "presidential": [2012, 2016, 2020, 2024],
-        "senate": [2014, 2018, 2020, 2024],
-        "governor": [2014, 2018, 2022],
-        "house": [2012, 2014, 2016, 2018, 2020, 2022, 2024]
+        "presidential": [
+          2012,
+          2016,
+          2020,
+          2024
+        ],
+        "senate": [
+          2014,
+          2018,
+          2020,
+          2024
+        ],
+        "governor": [
+          2014,
+          2018,
+          2022
+        ],
+        "house": [
+          2012,
+          2014,
+          2016,
+          2018,
+          2020,
+          2022,
+          2024
+        ]
       },
       "calendar": {
         "available": true,
@@ -287,14 +569,42 @@
       },
       "turnout": {
         "available": true,
-        "years": [2016, 2018, 2020, 2022, 2024],
+        "years": [
+          2016,
+          2018,
+          2020,
+          2022,
+          2024
+        ],
         "source": "Wisconsin Elections Commission"
       },
       "results": {
-        "presidential": [2012, 2016, 2020, 2024],
-        "senate": [2016, 2018, 2022, 2024],
-        "governor": [2014, 2018, 2022],
-        "house": [2012, 2014, 2016, 2018, 2020, 2022, 2024]
+        "presidential": [
+          2012,
+          2016,
+          2020,
+          2024
+        ],
+        "senate": [
+          2016,
+          2018,
+          2022,
+          2024
+        ],
+        "governor": [
+          2014,
+          2018,
+          2022
+        ],
+        "house": [
+          2012,
+          2014,
+          2016,
+          2018,
+          2020,
+          2022,
+          2024
+        ]
       },
       "calendar": {
         "available": true,
@@ -314,14 +624,42 @@
       },
       "turnout": {
         "available": true,
-        "years": [2016, 2018, 2020, 2022, 2024],
+        "years": [
+          2016,
+          2018,
+          2020,
+          2022,
+          2024
+        ],
         "source": "Alabama Secretary of State"
       },
       "results": {
-        "presidential": [2012, 2016, 2020, 2024],
-        "senate": [2014, 2017, 2020, 2024],
-        "governor": [2014, 2018, 2022],
-        "house": [2012, 2014, 2016, 2018, 2020, 2022, 2024]
+        "presidential": [
+          2012,
+          2016,
+          2020,
+          2024
+        ],
+        "senate": [
+          2014,
+          2017,
+          2020,
+          2024
+        ],
+        "governor": [
+          2014,
+          2018,
+          2022
+        ],
+        "house": [
+          2012,
+          2014,
+          2016,
+          2018,
+          2020,
+          2022,
+          2024
+        ]
       },
       "calendar": {
         "available": true,
@@ -331,12 +669,41 @@
     }
   },
   "summary": {
-    "statesWithMonthlyData": ["AZ", "CA", "CO", "FL", "GA", "MI", "NC", "NV", "PA", "TX"],
-    "statesWithQuarterlyData": ["WI"],
-    "statesWithAnnualData": ["AL"],
-    "statesWithPartisanBreakdown": ["AZ", "CA", "CO", "FL", "NC", "NV", "PA"],
-    "statesWithoutPartisanRegistration": ["AL", "GA", "MI", "TX", "WI"],
-    "lastPipelineRun": "2026-01-27T00:00:00Z",
+    "statesWithMonthlyData": [
+      "AZ",
+      "CA",
+      "CO",
+      "FL",
+      "GA",
+      "MI",
+      "NC",
+      "NV",
+      "PA",
+      "TX"
+    ],
+    "statesWithQuarterlyData": [
+      "WI"
+    ],
+    "statesWithAnnualData": [
+      "AL"
+    ],
+    "statesWithPartisanBreakdown": [
+      "AZ",
+      "CA",
+      "CO",
+      "FL",
+      "NC",
+      "NV",
+      "PA"
+    ],
+    "statesWithoutPartisanRegistration": [
+      "AL",
+      "GA",
+      "MI",
+      "TX",
+      "WI"
+    ],
+    "lastPipelineRun": "2026-02-01T06:23:25.477Z",
     "dataSourcesCount": 12,
     "notes": "Coverage varies by state. Some states do not track party registration. Data update frequency depends on state reporting schedules."
   }

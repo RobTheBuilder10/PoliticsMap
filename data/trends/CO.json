@@ -1,0 +1,18 @@
+{
+  "stateId": "CO",
+  "hasPartisanRegistration": true,
+  "registrationHistory": [
+    {
+      "date": "2026-02-01",
+      "total": 4263080,
+      "source": "Colorado Secretary of State",
+      "sourceUrl": "https://www.sos.state.co.us/pubs/elections/VoterRegNumbers/VoterRegNumbers.html",
+      "democratic": 1492113,
+      "republican": 1398135,
+      "independent": 1098264,
+      "other": 274568
+    }
+  ],
+  "lastUpdated": "2026-02-01T06:23:20.884Z",
+  "updateFrequency": "monthly"
+}

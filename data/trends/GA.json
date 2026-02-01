@@ -1,0 +1,14 @@
+{
+  "stateId": "GA",
+  "hasPartisanRegistration": false,
+  "registrationHistory": [
+    {
+      "date": "2026-02-01",
+      "total": 5318754,
+      "source": "Georgia Secretary of State",
+      "sourceUrl": "https://sos.ga.gov/page/voter-registration-statistics"
+    }
+  ],
+  "lastUpdated": "2026-02-01T06:23:21.886Z",
+  "updateFrequency": "monthly"
+}

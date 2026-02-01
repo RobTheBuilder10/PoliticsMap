@@ -1,0 +1,18 @@
+{
+  "stateId": "FL",
+  "hasPartisanRegistration": true,
+  "registrationHistory": [
+    {
+      "date": "2026-02-01",
+      "total": 1235131,
+      "source": "Florida Secretary of State",
+      "sourceUrl": "https://dos.myflorida.com/elections/data-statistics/voter-registration-statistics/",
+      "democratic": 409517,
+      "republican": 450399,
+      "independent": 300171,
+      "other": 75044
+    }
+  ],
+  "lastUpdated": "2026-02-01T06:23:21.385Z",
+  "updateFrequency": "monthly"
+}

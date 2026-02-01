@@ -1,0 +1,14 @@
+{
+  "stateId": "MI",
+  "hasPartisanRegistration": false,
+  "registrationHistory": [
+    {
+      "date": "2026-02-01",
+      "total": 3295162,
+      "source": "Michigan Secretary of State",
+      "sourceUrl": "https://mvic.sos.state.mi.us/"
+    }
+  ],
+  "lastUpdated": "2026-02-01T06:23:22.387Z",
+  "updateFrequency": "monthly"
+}

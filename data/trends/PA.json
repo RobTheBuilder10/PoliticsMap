@@ -1,0 +1,18 @@
+{
+  "stateId": "PA",
+  "hasPartisanRegistration": true,
+  "registrationHistory": [
+    {
+      "date": "2026-02-01",
+      "total": 5790440,
+      "source": "Pennsylvania Secretary of State",
+      "sourceUrl": "https://www.dos.pa.gov/VotingElections/OtherServicesEvents/VotingElectionStatistics/Pages/default.aspx",
+      "democratic": 1930075,
+      "republican": 2051346,
+      "independent": 1447214,
+      "other": 361805
+    }
+  ],
+  "lastUpdated": "2026-02-01T06:23:23.891Z",
+  "updateFrequency": "monthly"
+}
