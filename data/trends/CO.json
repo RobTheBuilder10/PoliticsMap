@@ -3,6 +3,16 @@
   "hasPartisanRegistration": true,
   "registrationHistory": [
     {
+      "date": "2026-04-01",
+      "total": 4986916,
+      "source": "Colorado Secretary of State",
+      "sourceUrl": "https://www.sos.state.co.us/pubs/elections/VoterRegNumbers/VoterRegNumbers.html",
+      "democratic": 1851706,
+      "republican": 1893471,
+      "independent": 993390,
+      "other": 248349
+    },
+    {
       "date": "2026-03-01",
       "total": 1951245,
       "source": "Colorado Secretary of State",
@@ -23,6 +33,6 @@
       "other": 274568
     }
   ],
-  "lastUpdated": "2026-03-01T06:21:08.277Z",
+  "lastUpdated": "2026-04-01T06:42:43.613Z",
   "updateFrequency": "monthly"
 }

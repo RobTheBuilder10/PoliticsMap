@@ -3,6 +3,12 @@
   "hasPartisanRegistration": false,
   "registrationHistory": [
     {
+      "date": "2026-04-01",
+      "total": 3958143,
+      "source": "Georgia Secretary of State",
+      "sourceUrl": "https://sos.ga.gov/page/voter-registration-statistics"
+    },
+    {
       "date": "2026-03-01",
       "total": 4629225,
       "source": "Georgia Secretary of State",
@@ -15,6 +21,6 @@
       "sourceUrl": "https://sos.ga.gov/page/voter-registration-statistics"
     }
   ],
-  "lastUpdated": "2026-03-01T06:21:09.280Z",
+  "lastUpdated": "2026-04-01T06:42:44.616Z",
   "updateFrequency": "monthly"
 }
