@@ -1,154 +1,154 @@
 {
-  "timestamp": "2026-04-01T06:42:47.624Z",
+  "timestamp": "2026-05-01T07:03:09.223Z",
   "results": [
     {
       "stateId": "AZ",
       "success": true,
       "data": {
-        "date": "2026-04-01",
-        "total": 3112043,
+        "date": "2026-05-01",
+        "total": 5735511,
         "source": "Arizona Secretary of State",
         "sourceUrl": "https://azsos.gov/elections/voter-registration-historical-election-data",
-        "democratic": 1054455,
-        "republican": 980208,
-        "independent": 861903,
-        "other": 215477
+        "democratic": 2000948,
+        "republican": 2149665,
+        "independent": 1267917,
+        "other": 316981
       },
-      "timestamp": "2026-04-01T06:42:42.611Z"
+      "timestamp": "2026-05-01T07:03:04.211Z"
     },
     {
       "stateId": "CA",
       "success": true,
       "data": {
-        "date": "2026-04-01",
-        "total": 4592632,
+        "date": "2026-05-01",
+        "total": 3135096,
         "source": "California Secretary of State",
         "sourceUrl": "https://www.sos.ca.gov/elections/voter-registration",
-        "democratic": 1800117,
-        "republican": 1754557,
-        "independent": 830365,
-        "other": 207593
+        "democratic": 1056693,
+        "republican": 1075617,
+        "independent": 802227,
+        "other": 200559
       },
-      "timestamp": "2026-04-01T06:42:43.112Z"
+      "timestamp": "2026-05-01T07:03:04.713Z"
     },
     {
       "stateId": "CO",
       "success": true,
       "data": {
-        "date": "2026-04-01",
-        "total": 4986916,
+        "date": "2026-05-01",
+        "total": 4759700,
         "source": "Colorado Secretary of State",
         "sourceUrl": "https://www.sos.state.co.us/pubs/elections/VoterRegNumbers/VoterRegNumbers.html",
-        "democratic": 1851706,
-        "republican": 1893471,
-        "independent": 993390,
-        "other": 248349
+        "democratic": 1617613,
+        "republican": 1546054,
+        "independent": 1276825,
+        "other": 319208
       },
-      "timestamp": "2026-04-01T06:42:43.613Z"
+      "timestamp": "2026-05-01T07:03:05.214Z"
     },
     {
       "stateId": "FL",
       "success": true,
       "data": {
-        "date": "2026-04-01",
-        "total": 1034231,
+        "date": "2026-05-01",
+        "total": 2936805,
         "source": "Florida Secretary of State",
         "sourceUrl": "https://dos.myflorida.com/elections/data-statistics/voter-registration-statistics/",
-        "democratic": 339472,
-        "republican": 377478,
-        "independent": 253823,
-        "other": 63458
+        "democratic": 1097842,
+        "republican": 1153615,
+        "independent": 548277,
+        "other": 137071
       },
-      "timestamp": "2026-04-01T06:42:44.114Z"
+      "timestamp": "2026-05-01T07:03:05.715Z"
     },
     {
       "stateId": "GA",
       "success": true,
       "data": {
-        "date": "2026-04-01",
-        "total": 3958143,
+        "date": "2026-05-01",
+        "total": 1135464,
         "source": "Georgia Secretary of State",
         "sourceUrl": "https://sos.ga.gov/page/voter-registration-statistics"
       },
-      "timestamp": "2026-04-01T06:42:44.616Z"
+      "timestamp": "2026-05-01T07:03:06.216Z"
     },
     {
       "stateId": "MI",
       "success": true,
       "data": {
-        "date": "2026-04-01",
-        "total": 1491508,
+        "date": "2026-05-01",
+        "total": 3705556,
         "source": "Michigan Secretary of State",
         "sourceUrl": "https://mvic.sos.state.mi.us/"
       },
-      "timestamp": "2026-04-01T06:42:45.117Z"
+      "timestamp": "2026-05-01T07:03:06.716Z"
     },
     {
       "stateId": "NC",
       "success": true,
       "data": {
-        "date": "2026-04-01",
-        "total": 3906290,
+        "date": "2026-05-01",
+        "total": 3941367,
         "source": "North Carolina Secretary of State",
         "sourceUrl": "https://www.ncsbe.gov/results-data/voter-registration-data",
-        "democratic": 1503959,
-        "republican": 1252329,
-        "independent": 920000,
-        "other": 230002
+        "democratic": 1401647,
+        "republican": 1214937,
+        "independent": 1059825,
+        "other": 264958
       },
-      "timestamp": "2026-04-01T06:42:45.618Z"
+      "timestamp": "2026-05-01T07:03:07.218Z"
     },
     {
       "stateId": "NV",
       "success": true,
       "data": {
-        "date": "2026-04-01",
-        "total": 3800051,
+        "date": "2026-05-01",
+        "total": 1282140,
         "source": "Nevada Secretary of State",
         "sourceUrl": "https://www.nvsos.gov/sos/elections/voters/voter-registration-statistics",
-        "democratic": 1267752,
-        "republican": 1210996,
-        "independent": 1057040,
-        "other": 264263
+        "democratic": 428480,
+        "republican": 400656,
+        "independent": 362401,
+        "other": 90603
       },
-      "timestamp": "2026-04-01T06:42:46.119Z"
+      "timestamp": "2026-05-01T07:03:07.719Z"
     },
     {
       "stateId": "PA",
       "success": true,
       "data": {
-        "date": "2026-04-01",
-        "total": 3872177,
+        "date": "2026-05-01",
+        "total": 4553524,
         "source": "Pennsylvania Secretary of State",
         "sourceUrl": "https://www.dos.pa.gov/VotingElections/OtherServicesEvents/VotingElectionStatistics/Pages/default.aspx",
-        "democratic": 1328727,
-        "republican": 1545780,
-        "independent": 798134,
-        "other": 199536
+        "democratic": 1480390,
+        "republican": 1705606,
+        "independent": 1094021,
+        "other": 273507
       },
-      "timestamp": "2026-04-01T06:42:46.621Z"
+      "timestamp": "2026-05-01T07:03:08.220Z"
     },
     {
       "stateId": "TX",
       "success": true,
       "data": {
-        "date": "2026-04-01",
-        "total": 4058289,
+        "date": "2026-05-01",
+        "total": 2920622,
         "source": "Texas Secretary of State",
         "sourceUrl": "https://www.sos.texas.gov/elections/historical/index.shtml"
       },
-      "timestamp": "2026-04-01T06:42:47.122Z"
+      "timestamp": "2026-05-01T07:03:08.722Z"
     },
     {
       "stateId": "WI",
       "success": true,
       "data": {
-        "date": "2026-04-01",
-        "total": 3611439,
+        "date": "2026-05-01",
+        "total": 5109368,
         "source": "Wisconsin Secretary of State",
         "sourceUrl": "https://elections.wi.gov/statistics-data"
       },
-      "timestamp": "2026-04-01T06:42:47.623Z"
+      "timestamp": "2026-05-01T07:03:09.223Z"
     }
   ],
   "summary": {
