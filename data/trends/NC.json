@@ -3,6 +3,16 @@
   "hasPartisanRegistration": true,
   "registrationHistory": [
     {
+      "date": "2026-06-01",
+      "total": 3427254,
+      "source": "North Carolina Secretary of State",
+      "sourceUrl": "https://www.ncsbe.gov/results-data/voter-registration-data",
+      "democratic": 1045047,
+      "republican": 1320945,
+      "independent": 849008,
+      "other": 212254
+    },
+    {
       "date": "2026-05-01",
       "total": 3941367,
       "source": "North Carolina Secretary of State",
@@ -43,6 +53,6 @@
       "other": 163719
     }
   ],
-  "lastUpdated": "2026-05-01T07:03:07.218Z",
+  "lastUpdated": "2026-06-01T07:59:10.205Z",
   "updateFrequency": "monthly"
 }

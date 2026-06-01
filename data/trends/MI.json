@@ -3,6 +3,12 @@
   "hasPartisanRegistration": false,
   "registrationHistory": [
     {
+      "date": "2026-06-01",
+      "total": 5867972,
+      "source": "Michigan Secretary of State",
+      "sourceUrl": "https://mvic.sos.state.mi.us/"
+    },
+    {
       "date": "2026-05-01",
       "total": 3705556,
       "source": "Michigan Secretary of State",
@@ -27,6 +33,6 @@
       "sourceUrl": "https://mvic.sos.state.mi.us/"
     }
   ],
-  "lastUpdated": "2026-05-01T07:03:06.717Z",
+  "lastUpdated": "2026-06-01T07:59:09.703Z",
   "updateFrequency": "monthly"
 }

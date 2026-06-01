@@ -3,6 +3,16 @@
   "hasPartisanRegistration": true,
   "registrationHistory": [
     {
+      "date": "2026-06-01",
+      "total": 5065642,
+      "source": "Nevada Secretary of State",
+      "sourceUrl": "https://www.nvsos.gov/sos/elections/voters/voter-registration-statistics",
+      "democratic": 1903109,
+      "republican": 1653316,
+      "independent": 1207372,
+      "other": 301845
+    },
+    {
       "date": "2026-05-01",
       "total": 1282140,
       "source": "Nevada Secretary of State",
@@ -43,6 +53,6 @@
       "other": 207507
     }
   ],
-  "lastUpdated": "2026-05-01T07:03:07.719Z",
+  "lastUpdated": "2026-06-01T07:59:10.706Z",
   "updateFrequency": "monthly"
 }

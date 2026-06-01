@@ -1,14 +1,14 @@
 {
   "metadata": {
     "version": "1.0.0",
-    "lastUpdated": "2026-05-01T07:03:09.962Z",
+    "lastUpdated": "2026-06-01T07:59:12.896Z",
     "description": "Pipeline errors and data quality issues"
   },
   "errors": [],
   "warnings": [],
   "lastPipelineRun": {
-    "timestamp": "2026-05-01T07:03:09.962Z",
-    "duration": 6905,
+    "timestamp": "2026-06-01T07:59:12.896Z",
+    "duration": 6837,
     "statesProcessed": 11,
     "statesSuccessful": 11,
     "statesFailed": 0
