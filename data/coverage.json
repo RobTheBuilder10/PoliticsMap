@@ -703,7 +703,7 @@
       "TX",
       "WI"
     ],
-    "lastPipelineRun": "2026-06-01T07:59:12.897Z",
+    "lastPipelineRun": "2026-07-01T07:40:25.751Z",
     "dataSourcesCount": 12,
     "notes": "Coverage varies by state. Some states do not track party registration. Data update frequency depends on state reporting schedules."
   }

@@ -3,6 +3,16 @@
   "hasPartisanRegistration": true,
   "registrationHistory": [
     {
+      "date": "2026-07-01",
+      "total": 5493758,
+      "source": "Arizona Secretary of State",
+      "sourceUrl": "https://azsos.gov/elections/voter-registration-historical-election-data",
+      "democratic": 2131800,
+      "republican": 1857991,
+      "independent": 1203172,
+      "other": 300795
+    },
+    {
       "date": "2026-06-01",
       "total": 1547247,
       "source": "Arizona Secretary of State",
@@ -173,7 +183,7 @@
       "sourceUrl": "https://azsos.gov/elections/voter-registration-historical-election-data"
     }
   ],
-  "lastUpdated": "2026-06-01T07:59:07.197Z",
+  "lastUpdated": "2026-07-01T07:40:20.061Z",
   "updateFrequency": "monthly",
   "coverageNotes": "Arizona publishes monthly voter registration statistics by party"
 }

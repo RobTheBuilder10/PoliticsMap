@@ -3,6 +3,16 @@
   "hasPartisanRegistration": true,
   "registrationHistory": [
     {
+      "date": "2026-07-01",
+      "total": 5136391,
+      "source": "Pennsylvania Secretary of State",
+      "sourceUrl": "https://www.dos.pa.gov/VotingElections/OtherServicesEvents/VotingElectionStatistics/Pages/default.aspx",
+      "democratic": 1871039,
+      "republican": 1875313,
+      "independent": 1112031,
+      "other": 278008
+    },
+    {
       "date": "2026-06-01",
       "total": 2520507,
       "source": "Pennsylvania Secretary of State",
@@ -53,6 +63,6 @@
       "other": 361805
     }
   ],
-  "lastUpdated": "2026-06-01T07:59:11.207Z",
+  "lastUpdated": "2026-07-01T07:40:24.070Z",
   "updateFrequency": "monthly"
 }
