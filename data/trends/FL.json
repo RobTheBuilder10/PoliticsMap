@@ -3,6 +3,16 @@
   "hasPartisanRegistration": true,
   "registrationHistory": [
     {
+      "date": "2026-08-01",
+      "total": 2534437,
+      "source": "Florida Secretary of State",
+      "sourceUrl": "https://dos.myflorida.com/elections/data-statistics/voter-registration-statistics/",
+      "democratic": 904918,
+      "republican": 816803,
+      "independent": 650171,
+      "other": 162545
+    },
+    {
       "date": "2026-07-01",
       "total": 3466454,
       "source": "Florida Secretary of State",
@@ -63,6 +73,6 @@
       "other": 75044
     }
   ],
-  "lastUpdated": "2026-07-01T07:40:21.564Z",
+  "lastUpdated": "2026-08-01T06:55:58.957Z",
   "updateFrequency": "monthly"
 }

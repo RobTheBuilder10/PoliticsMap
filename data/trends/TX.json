@@ -3,6 +3,12 @@
   "hasPartisanRegistration": false,
   "registrationHistory": [
     {
+      "date": "2026-08-01",
+      "total": 4887380,
+      "source": "Texas Secretary of State",
+      "sourceUrl": "https://www.sos.texas.gov/elections/historical/index.shtml"
+    },
+    {
       "date": "2026-07-01",
       "total": 3353529,
       "source": "Texas Secretary of State",
@@ -39,6 +45,6 @@
       "sourceUrl": "https://www.sos.texas.gov/elections/historical/index.shtml"
     }
   ],
-  "lastUpdated": "2026-07-01T07:40:24.572Z",
+  "lastUpdated": "2026-08-01T06:56:01.976Z",
   "updateFrequency": "monthly"
 }
