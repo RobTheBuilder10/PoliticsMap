@@ -3,6 +3,12 @@
   "hasPartisanRegistration": false,
   "registrationHistory": [
     {
+      "date": "2026-10-01",
+      "total": 5702130,
+      "source": "Wisconsin Secretary of State",
+      "sourceUrl": "https://elections.wi.gov/statistics-data"
+    },
+    {
       "date": "2026-09-01",
       "total": 2565940,
       "source": "Wisconsin Secretary of State",
@@ -51,6 +57,6 @@
       "sourceUrl": "https://elections.wi.gov/statistics-data"
     }
   ],
-  "lastUpdated": "2026-09-01T11:20:35.482Z",
+  "lastUpdated": "2026-10-01T12:43:38.021Z",
   "updateFrequency": "quarterly"
 }

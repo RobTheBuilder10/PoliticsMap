@@ -3,6 +3,16 @@
   "hasPartisanRegistration": true,
   "registrationHistory": [
     {
+      "date": "2026-10-01",
+      "total": 5489447,
+      "source": "California Secretary of State",
+      "sourceUrl": "https://www.sos.ca.gov/elections/voter-registration",
+      "democratic": 1728416,
+      "republican": 2019052,
+      "independent": 1393582,
+      "other": 348397
+    },
+    {
       "date": "2026-09-01",
       "total": 4304767,
       "source": "California Secretary of State",
@@ -83,6 +93,6 @@
       "other": 292146
     }
   ],
-  "lastUpdated": "2026-09-01T11:20:30.935Z",
+  "lastUpdated": "2026-10-01T12:43:33.510Z",
   "updateFrequency": "monthly"
 }
